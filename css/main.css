@@ -135,4 +135,20 @@ button {
 
 .site-nav__item.link:hover .site-nav__item .link:focus {
   color: #2196f3;
+}
+
+.page-header__logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 93px;
+}
+
+.logo__accent {
+  color: #212121;
 }/*# sourceMappingURL=main.css.map */
