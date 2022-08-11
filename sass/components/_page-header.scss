@@ -1,0 +1,12 @@
+.header {
+     background-color: $wightText;
+     border-bottom: 1px solid #ececec;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+}
+
+.header__container {
+     display: flex;
+     text-align: center;
+}

@@ -1,0 +1,15 @@
+// * COLOR
+$textTitleColor: #212121;
+$buttonColor: #2196f3;
+$textColor: #757575;
+$primaryIconColor: #afb1b8;
+$wightText: #ffffff;
+
+// * TRANSITION
+$transitionBgc: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionColor: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionBorder: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionBoxShadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionTransform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionOpacity: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionModal: 500ms cubic-bezier(0.4, 0, 0.2, 1);
