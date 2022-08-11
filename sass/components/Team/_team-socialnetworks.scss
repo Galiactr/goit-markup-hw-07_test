@@ -1,0 +1,37 @@
+.social-networks {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+}
+
+.social-networks__link {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     transition: $transitionBgc, $transitionColor;
+
+     width: 44px;
+     height: 44px;
+     border-radius: 50%;
+
+     color: $primaryIconColor;
+}
+.social-networks__icons {
+     display: flex;
+     fill: currentColor;
+
+     width: 20px;
+     height: 20px;
+}
+
+.social-networks__icons:hover {
+     color: $wightText;
+}
+
+.social-networks__link:hover,
+.social-networks__link:focus {
+     color: $wightText;
+     background-color: $buttonColor;
+}
