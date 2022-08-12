@@ -93,17 +93,18 @@ button {
 .page-header__logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: var(--button-color);
+  color: var(--text-title-color);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 93px;
+     line-height: 1.2;
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-right: 93px;
+     
 }
-.logo__accent {
-  color: var(--text-title-color);
-}
+.page-header-logo__accent {
+     color: var(--button-color);
+     }
 .site-nav {
   color: var(--text-title-color);
   list-style: none;
