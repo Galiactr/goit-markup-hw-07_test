@@ -295,9 +295,11 @@ button {
   min-width: 136px;
   margin-bottom: 0px;
 }
-
-.hero__btn:focus,
 .hero__btn:hover {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+.hero__btn:focus {
   background-color: #188ce8;
   color: #ffffff;
 }
