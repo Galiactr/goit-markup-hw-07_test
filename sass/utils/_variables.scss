@@ -17,6 +17,7 @@ $btnColor: #188ce8;
 $primaryBgc: #ffffff;
 $secondaryBgc: #2f303a;
 $tertiaryBgc: #f5f4fa;
+$accentColor: #2196f3;
 
 // * BORDER
 $headerBorder: 1px solid #ececec;
@@ -33,3 +34,4 @@ $transitionBoxShadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 $transitionTransform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 $transitionOpacity: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 $transitionModal: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionAnimation: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
