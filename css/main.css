@@ -521,12 +521,10 @@ button {
   gap: 30px;
   list-style: none;
 }
-
 .clients-list__item {
   width: 170px;
   height: 92px;
 }
-
 .clients-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -545,8 +543,10 @@ button {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
-.clients-list__link:hover,
+.clients-list__link:hover {
+  border: 1px solid #2196f3;
+  color: #2196f3;
+}
 .clients-list__link:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
