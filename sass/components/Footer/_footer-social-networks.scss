@@ -16,8 +16,8 @@
      display: flex;
      list-style: none;
      gap: 10px;
-}
-.social-networks__link {
+
+     &__link {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -27,15 +27,20 @@
      border-radius: 50%;
      background-color: rgba(255, 255, 255, 0.1);
      transition: $transitionBgc;
-}
-.social-networks__icon {
+
+        &:hover {
+          background-color: $buttonColor;
+          }
+        &:focus {
+          background-color: $buttonColor;
+          }
+     }
+     &__icon {
      fill: $wightText;
      width: 20px;
      height: 20px;
      align-items: center;
 }
-
-.social-networks__link:hover,
-.social-networks__link:focus {
-     background-color: $buttonColor;
 }
+
+
