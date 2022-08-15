@@ -8,11 +8,12 @@
      margin-top: 0;
      margin-bottom: 0;
      margin-right: 93px;
+
+     &__accent {
+               color: $buttonColor;
+          }
      
 }
-.page-header-logo__accent {
-          color: $buttonColor;
-     }
 
 .footer__logo {
      text-decoration: none;
@@ -23,6 +24,8 @@
      line-height: 1.2;
      display: block;
      margin-bottom: 20px;
+
+     
 }
 
 .logo__accent {
