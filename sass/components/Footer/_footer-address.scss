@@ -2,7 +2,8 @@
      margin-right: 70px;
      align-items: baseline;
 }
-.address__list {
+.address {
+     &__list {
      list-style: none;
      font-style: normal;
      font-weight: 400;
@@ -11,23 +12,25 @@
      color: $wightText;
      display: block;
 }
-
-.address__item {
+     &__item {
      margin-bottom: 9px;
 }
-
-.address__link {
+     &__link {
      color: rgba(255, 255, 255, 0.6);
      text-decoration: none;
      font-style: normal;
      display: block;
 
      transition: $transitionColor;
-}
 
-.address__link:hover,
-.address__link:focus {
-     color: $buttonColor;
+     &:hover {
+          color: $accentColor;
+          }
+     &:focus {
+          color: $accentColor;
+     }
+     
+}
 }
 
 .address__item .phone {

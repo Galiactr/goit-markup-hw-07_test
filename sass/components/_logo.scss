@@ -9,12 +9,11 @@
      margin-bottom: 0;
      margin-right: 93px;
 
-     &__accent {
-               color: $buttonColor;
-          }
-     
 }
 
+.page-header-logo__accent {
+     color: $buttonColor;
+}
 .footer__logo {
      text-decoration: none;
      font-family: "Raleway", sans-serif;
