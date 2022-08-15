@@ -42,19 +42,13 @@
                border: $clientsBorder;
                color: $buttonColor;
           }
+    
 }
 }
-
-
-
-
-
-
-
-
 .clients-list__icon {
-     display: inline-flex;
-     fill: currentColor;
+      display: inline-flex;
+      fill: currentColor;
 
-     transition: $transitionColor, $transitionBorder;
-}
+      transition: $transitionColor, $transitionBorder;
+ }
+
