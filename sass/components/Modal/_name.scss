@@ -1,4 +1,5 @@
-.form-field__label {
+.form-field {
+     &__label {
      display: block;
      margin-bottom: 4px;
 
@@ -7,14 +8,12 @@
      letter-spacing: 0.01em;
 
      color: #757575;
-}
-
-.form-field__wrapper {
+     }
+     &__wrapper {
      position: relative;
      margin-bottom: 10px;
-}
-
-.form-field__input {
+     }
+     &__input {
      padding-left: 42px;
      padding-right: 15px;
 
@@ -28,14 +27,17 @@
      border: 1px solid rgba(33, 33, 33, 0.2);
      border-radius: 4px;
      transition: $transitionBorder;
-}
-.form-field__input:focus,
-.form-field__input:focus-within {
+
+     &:focus {
+      border: 1px solid $buttonColor;
+      outline: $buttonColor;
+          }
+     &:focus-within {
      border: 1px solid $buttonColor;
      outline: $buttonColor;
-}
-
-.form-field__icon {
+     }
+     }
+     &__icon {
      position: absolute;
      top: 50%;
      left: 12px;
@@ -43,11 +45,12 @@
 
      fill: $textTitleColor;
      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form-field__input:focus+.form-field-icon {
-     fill: $buttonColor;
-}
 
+     .form-field__input:focus + & {
+               fill: $buttonColor;
+          }
+}
+}
 .order-form__form-field {
      margin-bottom: 20px;
 }

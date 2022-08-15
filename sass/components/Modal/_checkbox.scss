@@ -39,23 +39,23 @@
      border: 2px solid $textTitleColor;
      border-radius: 2px;
      transition: $transitionBgc, $transitionBorder;
-}
 
-.checkbox-wrapper__icon--checked {
+     &--checked {
      position: absolute;
      top: 50%;
      left: 0;
      transform: translateY(-50%);
 
      border-color: transparent;
-}
-.checkbox-wrapper__checkbox:checked+.checkbox-wrapper__icon {
-     background-color: $buttonColor;
-     border-color: $buttonColor;
-}
-
-.checkbox-wrapper__checkbox:focus+.checkbox-wrapper__icon {
-     border-color: $buttonColor;
+     }
+     .checkbox-wrapper__checkbox:checked + & {
+               background-color: $buttonColor;
+               border-color: $buttonColor;
+          }
+     
+     .checkbox-wrapper__checkbox:focus+& {
+               border-color: $buttonColor;
+          }
 }
 
 .checkbox-wrapper__link {
