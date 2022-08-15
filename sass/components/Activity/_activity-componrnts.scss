@@ -1,26 +1,24 @@
-.activity__title {
+.activity { 
+     &__title {
      text-align: center;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.2;
-     color: $textColor;
+     color: $textTitleColor;
      margin-top: 0;
      margin-bottom: 50px;
 }
-
-.activity__list {
+     &__list {
      list-style: none;
      margin-top: 0;
      margin-bottom: 0;
      padding-bottom: 0;
      display: flex;
 }
-
-.activity__img-wrapper {
+     &__img-wrapper {
      position: relative;
 }
-
-.activity__text {
+     &__text {
      position: absolute;
      bottom: 0;
      padding: 27px 15px;
@@ -36,12 +34,18 @@
      color: $wightText;
      background: $backgroundActivity;
 }
-
-.activity__item {
+     &__item {
      margin-bottom: 0;
      padding-bottom: 0;
-}
 
-.activity__item:not(:nth-child(1n + 3)) {
+     &:not(:nth-child(1n + 3)) {
      margin-right: 30px;
 }
+}
+
+}
+
+
+
+
+
