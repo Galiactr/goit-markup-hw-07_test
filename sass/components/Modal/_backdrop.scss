@@ -1,8 +1,4 @@
-.backdrop.is-hidden {
-     visibility: hidden;
-     opacity: 0;
-     pointer-events: none;
-}
+
 
 .backdrop {
      position: fixed;
@@ -16,9 +12,15 @@
      transition: opacity $transitionModal,
           visibility $transitionModal;
 
-     background-color: rgba(0, 0, 0, 0.2);
-}
+     background-color: $backdropColor;
 
-.backdrop.is-hidden .modal {
+     &.is-hidden {
+     visibility: hidden;
+     opacity: 0;
+     pointer-events: none;
+    }
+    &.is-hidden .modal {
      transform: translate(-50%, -50%) scale(0);
 }
+}
+
