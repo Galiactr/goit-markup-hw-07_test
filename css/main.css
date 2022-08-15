@@ -322,15 +322,12 @@ button {
   display: flex;
   margin: 0;
 }
-
 .feature__item {
   max-width: 270px;
 }
-
 .feature__item:not(:nth-child(1n+4)) {
   margin-right: 30px;
 }
-
 .feature__sub-title {
   margin-bottom: 10px;
   color: #212121;
@@ -341,8 +338,7 @@ button {
   padding-top: 0;
   text-transform: uppercase;
 }
-
-.feature__discription {
+.feature__description {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
