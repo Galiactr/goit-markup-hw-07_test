@@ -3,9 +3,8 @@
      display: flex;
      justify-content: center;
      gap: 10px;
-}
 
-.social-networks__link {
+     &__link {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -17,21 +16,25 @@
      border-radius: 50%;
 
      color: $primaryIconColor;
+
+     &:hover {
+               color: $wightText;
+               background-color: $buttonColor;
+          }
+     &:focus {
+           color: $wightText;
+           background-color: $buttonColor;
+      }
 }
-.social-networks__icons {
+     &__icons {
      display: flex;
      fill: currentColor;
 
      width: 20px;
      height: 20px;
-}
 
-.social-networks__icons:hover {
+        &:hover {
      color: $wightText;
 }
-
-.social-networks__link:hover,
-.social-networks__link:focus {
-     color: $wightText;
-     background-color: $buttonColor;
+}
 }

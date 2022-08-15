@@ -467,7 +467,6 @@ button {
           justify-content: center;
   gap: 10px;
 }
-
 .social-networks__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -485,7 +484,14 @@ button {
   border-radius: 50%;
   color: #afb1b8;
 }
-
+.social-networks__link:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.social-networks__link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
 .social-networks__icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -494,15 +500,8 @@ button {
   width: 20px;
   height: 20px;
 }
-
 .social-networks__icons:hover {
   color: #ffffff;
-}
-
-.social-networks__link:hover,
-.social-networks__link:focus {
-  color: #ffffff;
-  background-color: #2196f3;
 }
 
 .clients__title {
