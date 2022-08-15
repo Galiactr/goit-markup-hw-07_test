@@ -833,13 +833,11 @@ button {
   color: #ffffff;
   margin-bottom: 20px;
 }
-
 .subscription-form__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .subscription-form__input {
   display: block;
   margin-right: 12px;
@@ -857,47 +855,18 @@ button {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.subscription-form__input::-webkit-input-placeholder {
+.subscription-form__input:placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.subscription-form__input::-moz-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+.subscription-form__input:hover {
+  border: 1px solid #2196f3;
 }
-
-.subscription-form__input:-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.subscription-form__input::-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.subscription-form__input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.subscription-form__input:hover,
 .subscription-form__input:focus {
   border: 1px solid #2196f3;
 }
-
 .subscription-form__submit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -920,12 +889,12 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-
-.subscription-form__submit:hover,
+.subscription-form__submit:hover {
+  background-color: #188ce8;
+}
 .subscription-form__submit:focus {
   background-color: #188ce8;
 }
-
 .subscription-form__icon {
   padding-left: 10px;
 }
