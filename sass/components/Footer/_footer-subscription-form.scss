@@ -24,15 +24,15 @@
      color: rgba(255, 255, 255, 0.6);
      background-color: transparent;
      border-radius: 4px;
-     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-     border: 1px solid rgba(255, 255, 255, 0.3);
+     filter: $subscriptionFooterShadow;
+     border: $subscriptionFooterBorder;
      transition: $transitionBorder;
 
      &:placeholder {
      font-size: 16px;
      line-height: 1.25;
      letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
+     color: $placeholderColor;
      }
      &:hover {
      border: 1px solid $buttonColor;
@@ -52,17 +52,17 @@
 
      color: $wightText;
      background-color: $buttonColor;
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     box-shadow: $subscriptionFooterShadow;
      border-radius: 4px;
      border: none;
      transition: $transitionBgc;
      cursor: pointer;
 
      &:hover {
-     background-color: #188ce8;
+     background-color: $btnColor;
      }
      &:focus {
-          background-color: #188ce8;
+          background-color: $btnColor;
      }
 }
      &__icon {
