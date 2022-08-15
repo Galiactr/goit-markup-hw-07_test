@@ -10,10 +10,10 @@
 
 .contacts-list__item {
      gap: 50px;
-}
 
-.contacts-list__item:not(:last-child) {
-     margin-right: 50px;
+     &:not(:last-child) {
+               margin-right: 50px;
+          }
 }
 
 .contacts-list__link {
@@ -29,20 +29,30 @@
 
 .contacts-list__link {
      margin: 0;
+
+     &:hover {
+          color: $buttonColor;
+     }
+     &:focus {
+          color: $buttonColor;
+     }
 }
 .contacts-list__icon {
      display: inline-block;
      margin-right: 10px;
 
      fill: currentColor;
-}
 
-.link:hover,
-.link:focus {
-     color: $buttonColor;
+     &:hover{
+               color: $buttonColor;
+          }
+     &:focus {
+          color: $buttonColor;
+     }
 }
+// .link:hover,
+// .link:focus {
+//      color: $buttonColor;
+// }
 
-.contacts-list__icon:hover,
-.contacts-list__icon:focus {
-     color: $buttonColor;
-}
+
